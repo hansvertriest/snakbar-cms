@@ -44,6 +44,8 @@ if (file_exists($root_dir . '/.env')) {
 define('WP_ENV', env('WP_ENV') ?: 'production');
 define('JWT_AUTH_SECRET_KEY', '%)7[:`2/@z*VrN*OO2?}.%(]6|Mr-j8@ztU%B(7bn5SCM@xe=W/-j84($ES6bo5');
 define('JWT_AUTH_CORS_ENABLE', true);
+define('JWT_AUTH_SECRET_KEY', 'secret');
+define('JWT_AUTH_CORS_ENABLE', true);
 
 
 /**
